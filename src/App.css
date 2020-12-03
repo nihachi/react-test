@@ -1,0 +1,53 @@
+.react-bootstrap-table .table tbody tr td .dropdown {
+  position: relative;
+  margin-left: 20px;
+}
+.react-bootstrap-table .table tbody tr td .dropdown button {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}
+.react-bootstrap-table .table tbody tr td .dropdown button:active {
+  background-color: transparent;
+}
+.react-bootstrap-table .table tbody tr td .dropdown button:focus {
+  outline: none;
+}
+.react-bootstrap-table .table tbody tr td .show.dropdown button {
+  background-color: transparent;
+  border-color: transparent;
+}
+.react-bootstrap-table .table tbody tr td .show.dropdown button:focus {
+  box-shadow: unset;
+}
+.react-bootstrap-table .table tbody tr td .dropdown .dropdown-menu {
+  right: 10px !important;
+  left: auto !important;
+  border: 0;
+  box-shadow: 10px 16px 48px rgba(19, 26, 47, 0.04);
+}
+.react-bootstrap-table .table tbody tr td {
+  border: 0;
+  font-size: 15px;
+  line-height: 22px;
+  color: #18171d;
+  height: 64px;
+  vertical-align: middle;
+}
+.react-bootstrap-table .table thead th {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #f0f2f7;
+  color: #9ba0a6;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+}
+.react-bootstrap-table .table {
+  border: 0;
+}
+.react-bootstrap-table .table tbody tr:nth-child(even) {
+  background-color: #fafbfd;
+  border-radius: 8px;
+}
